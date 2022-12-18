@@ -1,7 +1,11 @@
 package io.github.anwylen.core;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class App {
     public static void main(String[] args) {
-    System.out.println("This is my first maven proyect");
+        SpringApplication.run(App.class, args);
     }
 }
